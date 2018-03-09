@@ -1,0 +1,10 @@
+{
+  "name": "esm-modules-test",
+  "description":
+    "testing esm modules in node. requires a flag along with new extension in node@9.8.1",
+  "private": true,
+  "scripts": {
+    "start": "node --experimental-modules index"
+  },
+  "engines": { "node": "~9.8.1" }
+}
